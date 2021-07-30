@@ -455,9 +455,6 @@
     <ClInclude Include="Camera.h">
       <Filter>GameSource\Camera</Filter>
     </ClInclude>
-    <ClInclude Include="Const.h">
-      <Filter>GameSource\Utils</Filter>
-    </ClInclude>
     <ClInclude Include="XmlReader\tinyxml.h">
       <Filter>Library\XMLReader</Filter>
     </ClInclude>
@@ -619,6 +616,9 @@
     </ClInclude>
     <ClInclude Include="Scene.h">
       <Filter>GameSource\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Const.h">
+      <Filter>GameSource\Utils</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

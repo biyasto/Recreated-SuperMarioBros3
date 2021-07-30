@@ -3,6 +3,7 @@
 #include "Camera.h"
 #include "Game.h"
 
+
 CGrid::CGrid(int w, int h) {
 	numOfColumns = (int)ceil((float)w / (SCREEN_WIDTH >> 1));
 	numOfRows = (int)ceil((float)h / (SCREEN_HEIGHT >> 1));
