@@ -1,0 +1,27 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+    <mapdata mapFilePath="Resources/World1-Selection/World1-Selection.tmx">
+        <textures>
+            <texture id="world1-selection" filePath="Assets\Textures\World1-Selection.png" />
+            <texture id="tex-mario" filePath="Assets\Textures\mario.png" />
+            <texture id="tex-ui" filePath="Assets\Textures\UI.png" transColor="239,228,176" />
+            <texture id="black" filePath="Assets\Textures\black.png" transColor="255,255,255" />
+        </textures>
+
+        <sprites>
+            <sprite idTex="tex-mairio" filePath="Assets\Sprites\SpriteDatabases\MarioDB.xml" />
+            <sprite idTex="tex-ui" filePath="Assets\Sprites\SpriteDatabases\UIDB.xml" />
+            <sprite idTex="world1-selection" filePath="Assets\Sprites\SpriteDatabases\World1-SelectionDB.xml" />
+        </sprites>
+
+        <animations>
+            <animation idSet="world1-selection" filePath="Assets/Animations/World1-SelectionAnim.xml" />
+            <animation idSet="mario" filePath="Assets/Animations/MarioAnim.xml" />
+        </animations>
+
+        <objects>
+
+            <mario type="1" x="170" y="150" />
+            
+        </objects>
+    </mapdata>

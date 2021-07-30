@@ -1,0 +1,8 @@
+<GameSettings>
+    <Scenes start="intro">
+        <Scene id="intro" path="Resources\MapData\IntroScene.xml" type="intro-scene" />
+        <Scene id="world1-selection" path="Resources\MapData\World1-Selection.xml" type="selection-scene" />
+        <Scene id="world1-1" path="Resources\MapData\World1-1.xml" type="play-scene"/>
+		<Scene id="world1-3" path="Resources\MapData\World1-3.xml" type="play-scene"/>
+    </Scenes>
+</GameSettings>

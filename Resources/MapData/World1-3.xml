@@ -1,0 +1,41 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+    <mapdata mapFilePath="Resources/World1-3/World1-3.tmx">
+        <limitArea  left="0" top="0" right="7824" bottom="1448"/>
+        <textures>
+            <texture id="tex-mario" filePath="Assets\Textures\mario.png" />
+            <texture id="tex-enemy" filePath="Assets\Textures\enemy.png" />
+            <texture id="tex-ui" filePath="Assets\Textures\UI.png" transColor="239,228,176" />
+            <texture id="tex-misc" filePath="Assets\Textures\misc.png" transColor="239,228,176"/>
+            <texture id="tex-effect" filePath="Assets\Textures\effect.png" transColor="68,145,190"/>
+            <texture id="-100" filePath="Assets\Textures\bbox.png" transColor="255,255,255" />
+            <texture id="black" filePath="Assets\Textures\black.png" transColor="255,255,255" />
+        </textures>
+
+        <sprites>
+            <sprite idTex="tex-mairio" filePath="Assets\Sprites\SpriteDatabases\MarioDB.xml" />
+            <sprite idTex="tex-enemy" filePath="Assets\Sprites\SpriteDatabases\EnemyDB.xml" />
+            <sprite idTex="tex-ui" filePath="Assets\Sprites\SpriteDatabases\UIDB.xml" />
+            <sprite idTex="tex-misc" filePath="Assets\Sprites\SpriteDatabases\MiscDB.xml" />
+            <sprite idTex="tex-effect" filePath="Assets\Sprites\SpriteDatabases\EffectDB.xml" />
+
+        </sprites>
+
+        <animations>
+            <animation idSet="mario" filePath="Assets/Animations/MarioAnim.xml" />
+            <animation idSet="enemy" filePath="Assets/Animations/EnemyAnim.xml" />
+            <animation idSet="ui" filePath="Assets/Animations/UIAnim.xml" />
+            <animation idSet="misc" filePath="Assets/Animations/MiscAnim.xml" />
+            <animation idSet="effect" filePath="Assets/Animations/EffectAnim.xml" />
+        </animations>
+
+        <objects>
+        <!-- Static Objects -->
+            
+        <!-- Dynamic Objects -->
+            <!-- Type: 0: red-small / 1: red-big / 2: red-raccoon / 3: fire -->
+            <!--<mario type="2" x="6290" y="1500" /> -->
+            <mario type="0" x="50" y="800" />
+            <enemyBullets quantity="3"/>
+        </objects>
+    </mapdata>

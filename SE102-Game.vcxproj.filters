@@ -1,0 +1,624 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GameSource">
+      <UniqueIdentifier>{07566305-14cb-4093-8b76-5817d16c2452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\Scenes">
+      <UniqueIdentifier>{6d3f37a4-4fbd-497a-8d64-4f196a7d2749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\Scenes\SelectionScene">
+      <UniqueIdentifier>{b5e9dbb6-249f-41af-91ea-cd12f7a06994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\Scenes\PlayScene">
+      <UniqueIdentifier>{3904fad4-cb44-415b-96b2-735f2aceaba6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\Scenes\IntroScene">
+      <UniqueIdentifier>{615228a4-52aa-4fdd-87cd-9b202acb1510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{e598092a-d53f-446f-b3d0-3708c1189ac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\XMLReader">
+      <UniqueIdentifier>{469cc896-68b7-47f8-b0c0-3452f5dd662c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\Camera">
+      <UniqueIdentifier>{13da4362-146c-4732-87a2-fe893a4f8f28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\BuildGame">
+      <UniqueIdentifier>{0dc860ee-aef8-4053-8ed3-75400c35ea13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject">
+      <UniqueIdentifier>{023a01ed-86b3-4dde-922a-737468ee02d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Mario">
+      <UniqueIdentifier>{263e2313-396c-4574-a4a1-ca54e76354af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Mario\PlayingMario">
+      <UniqueIdentifier>{9b90c86e-17c3-4e5a-a5b1-fd64f57517cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Mario\PlayingMario\4.FireMario">
+      <UniqueIdentifier>{a68f682f-d6e1-4dca-a4b9-991b31f278cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Mario\PlayingMario\3.TailMario">
+      <UniqueIdentifier>{8f978460-0ce4-4af6-a519-ed790ac18542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Mario\PlayingMario\1.SmallMario">
+      <UniqueIdentifier>{82aad18d-86a4-43e7-bbb8-7f7088b9e15d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Mario\PlayingMario\0.Mario">
+      <UniqueIdentifier>{cdcd006f-b98c-44a2-8d6f-29f203022cc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Mario\PlayingMario\2.BigMario">
+      <UniqueIdentifier>{1d5b88c5-fc89-4400-ae71-c829492686e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Mario\PlayingMario\Attack">
+      <UniqueIdentifier>{3379b587-58f8-4f33-b657-18d377c947ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Mario\PlayingMario\Attack\FireBullet">
+      <UniqueIdentifier>{5bdeb1f4-322f-4b99-a3be-27465c40b414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Mario\PlayingMario\Attack\TailBoundingBox">
+      <UniqueIdentifier>{984fdfe5-f891-441e-8f0e-470b86bcc3e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Mario\SelectingMario">
+      <UniqueIdentifier>{08b85f94-3f53-4d70-854f-dd8721f1b721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\SelectionScene">
+      <UniqueIdentifier>{56661244-245c-44d3-bbf9-3471c8aff88e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\SelectionScene\Portal">
+      <UniqueIdentifier>{709ff24e-2c0e-420d-9ad6-51643ed879fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\SelectionScene\Tree">
+      <UniqueIdentifier>{b0d26b48-f9c0-427d-8fd1-3a65c6a91dfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\SelectionScene\Node">
+      <UniqueIdentifier>{0f4a06b7-25fe-4a24-8987-efcf01109bdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\Sprite">
+      <UniqueIdentifier>{682b603f-8281-480b-817d-2776086cc227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\Sprite\Effect">
+      <UniqueIdentifier>{ad952857-94c6-4eea-ba4e-449f75e883e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\Sprite\Effect\BoundingCoinEffect">
+      <UniqueIdentifier>{3901df5e-9e16-47b2-ba93-0d53493a2884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\Sprite\Effect\1UpEffect">
+      <UniqueIdentifier>{5090791d-0894-4a74-b4a8-50e52a007e1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\Sprite\Effect\Adding100PointEffect">
+      <UniqueIdentifier>{e334cfef-c005-43e3-9755-8652ae033c0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\Sprite\Texture">
+      <UniqueIdentifier>{c0148658-50f6-4d5e-a7ac-829f6fbbd85c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\Sprite\Animation">
+      <UniqueIdentifier>{7be4e946-7a27-45c4-9e7f-e07068bea6c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\Sprite\Sprite">
+      <UniqueIdentifier>{bba4e0e3-35c4-40b6-9b6a-8c9a54b3bd86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\Utils">
+      <UniqueIdentifier>{08f06cee-9f43-40b0-b788-23870e7b2f73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\WindowGame">
+      <UniqueIdentifier>{6f888301-24be-45e1-b3a7-2f871673fa33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\Scenes\Scene">
+      <UniqueIdentifier>{859688a5-c8a8-4ac5-849b-6a04bc22299f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\Utils\Grid and Cell">
+      <UniqueIdentifier>{0e284a5b-e117-4702-8ab6-765509b8e672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\Utils\Grid and Cell\Grid">
+      <UniqueIdentifier>{417b80ca-7f2e-4c22-a254-75a02c77b76f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\Utils\Grid and Cell\Cell">
+      <UniqueIdentifier>{62bfbad0-17ff-4154-ac11-f02b08df7b59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\Scenes\IntroScene\IntroSceneObjects">
+      <UniqueIdentifier>{1b534af2-9441-416c-ba43-f90525a82b5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Object">
+      <UniqueIdentifier>{7611a000-97d5-408f-a75d-4cb6e9680a21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Object\CollisionBox">
+      <UniqueIdentifier>{7e5eeb8b-5d1e-43e7-ab99-90491331ba78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Object\CollisionBox\RectangleCollision">
+      <UniqueIdentifier>{8eee1b50-fe6b-4338-a118-8149e4349b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Object\CollisionBox\RectanglePlatform">
+      <UniqueIdentifier>{f594ef79-8eb4-47fe-b6be-aa3883acc435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Object\Items">
+      <UniqueIdentifier>{322bd420-ee50-46a5-a469-0db9d2ff5a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Object\Items\PowerUp">
+      <UniqueIdentifier>{0575dfe1-5883-4e5e-98ab-09f6e1916d2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Object\Items\Coin">
+      <UniqueIdentifier>{68119fe2-2528-4a39-beaf-4197e30b1668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Object\UIDrawer">
+      <UniqueIdentifier>{61a5d9c4-9c3f-44f8-9520-fc31ab192da0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Object\Block">
+      <UniqueIdentifier>{dfd9f674-aa5a-476b-a847-4d5fae6458bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Object\Block\QuestionBox">
+      <UniqueIdentifier>{f9afaaa0-e30e-4b79-9191-00784fcde9aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Object\Block\GoldenBrick">
+      <UniqueIdentifier>{4beed926-8b6e-4984-87c2-33de43b13424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Object\Block\GoldenBrickCoin">
+      <UniqueIdentifier>{dafa8d4c-1e58-4cce-9c2c-65275ea508ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Object\Block\NoteBlock">
+      <UniqueIdentifier>{9126fa23-1c62-41ef-9fbd-a7fbabcde850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Object\Enemy">
+      <UniqueIdentifier>{d49c48e6-b0a7-4c2e-a102-3924a98a9df3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Object\Enemy\Enemy">
+      <UniqueIdentifier>{b31a20e1-e0ec-460d-958b-9d29d0d52451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Object\Enemy\Enemy\Koopas">
+      <UniqueIdentifier>{f2e09f51-caaa-4d28-a892-ef7c2c180086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Object\Enemy\Enemy\Goomba">
+      <UniqueIdentifier>{dff8313d-9aa3-4e60-ab83-66ba3af34299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Object\Enemy\Enemy\Venus">
+      <UniqueIdentifier>{1630d702-5aaf-4e56-bb8c-a7285d70ebb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Object\Enemy\Enemy\KoopasFly">
+      <UniqueIdentifier>{687de0b5-aefd-490a-a02a-76f0a679fc10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Object\Enemy\Enemy\RedGoomba">
+      <UniqueIdentifier>{3dffbec7-076d-4d73-b1e1-b6681c689875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Object\Enemy\Enemy\BoomerangBrother">
+      <UniqueIdentifier>{69140bd1-790e-4897-8e1a-d512616076ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Object\Enemy\Enemy\BrownGoomba">
+      <UniqueIdentifier>{c16f3adc-3cdd-4da0-b252-7122eb6bf462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Object\Enemy\Bullet">
+      <UniqueIdentifier>{1c1b7c65-47cb-4fbc-8334-d00652e7a293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Object\Enemy\Bullet\Boomerang">
+      <UniqueIdentifier>{8a60a99e-31d6-4af1-b058-910bda2cbb00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Object\Enemy\Bullet\MiniGoomba">
+      <UniqueIdentifier>{b0c92e9a-bb0e-41bc-ad00-b8ae5cbf0324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Object\WinningCard">
+      <UniqueIdentifier>{4e829819-5668-426b-9d83-fe2c490c64c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Object\DeathZone">
+      <UniqueIdentifier>{009a5470-2625-43b7-a775-227fb81f4d11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Object\Portal">
+      <UniqueIdentifier>{09a84a80-d79a-4a28-aeb3-0caea2d0a78b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Object\Portal\Teleport">
+      <UniqueIdentifier>{913432c5-2759-420d-8f41-f7db110641d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\GameObject\Object\Portal\PipePortal">
+      <UniqueIdentifier>{81b0856a-c4ef-4c12-928a-149db34f85eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameSource\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>GameSource\WindowGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>GameSource\Sprite\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>GameSource\Sprite\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>GameSource\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Goomba.cpp">
+      <Filter>GameSource\GameObject\Object\Enemy\Enemy\Goomba</Filter>
+    </ClCompile>
+    <ClCompile Include="Koopas.cpp">
+      <Filter>GameSource\GameObject\Object\Enemy\Enemy\Koopas</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>GameSource\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="RectCollision.cpp">
+      <Filter>GameSource\GameObject\Object\CollisionBox\RectangleCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationSet.cpp">
+      <Filter>GameSource\Sprite\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>GameSource\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlReader\tinystr.cpp">
+      <Filter>Library\XMLReader</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlReader\tinyxml.cpp">
+      <Filter>Library\XMLReader</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlReader\tinyxmlerror.cpp">
+      <Filter>Library\XMLReader</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlReader\tinyxmlparser.cpp">
+      <Filter>Library\XMLReader</Filter>
+    </ClCompile>
+    <ClCompile Include="MapLayer.cpp">
+      <Filter>GameSource\BuildGame</Filter>
+    </ClCompile>
+    <ClCompile Include="TileSet.cpp">
+      <Filter>GameSource\BuildGame</Filter>
+    </ClCompile>
+    <ClCompile Include="FireMario.cpp">
+      <Filter>GameSource\GameObject\Mario\PlayingMario\4.FireMario</Filter>
+    </ClCompile>
+    <ClCompile Include="FireBullet.cpp">
+      <Filter>GameSource\GameObject\Mario\PlayingMario\Attack\FireBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="RectPlatform.cpp">
+      <Filter>GameSource\GameObject\Object\CollisionBox\RectanglePlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestionBlock.cpp">
+      <Filter>GameSource\GameObject\Object\Block\QuestionBox</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestionBlockItem.cpp">
+      <Filter>GameSource\GameObject\Object\Block\QuestionBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Leaf.cpp">
+      <Filter>GameSource\GameObject\Object\Items\PowerUp</Filter>
+    </ClCompile>
+    <ClCompile Include="Venus.cpp">
+      <Filter>GameSource\GameObject\Object\Enemy\Enemy\Venus</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDrawer.cpp">
+      <Filter>GameSource\GameObject\Object\UIDrawer</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin.cpp">
+      <Filter>GameSource\GameObject\Object\Items\Coin</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>GameSource\Sprite\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="AddingPointEffect.cpp">
+      <Filter>GameSource\Sprite\Effect\Adding100PointEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingCoinEffect.cpp">
+      <Filter>GameSource\Sprite\Effect\BoundingCoinEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="KoopasFly.cpp">
+      <Filter>GameSource\GameObject\Object\Enemy\Enemy\KoopasFly</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathf.cpp">
+      <Filter>GameSource\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionScene.cpp">
+      <Filter>GameSource\Scenes\SelectionScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionPortal.cpp">
+      <Filter>GameSource\GameObject\SelectionScene\Portal</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionSceneMario.cpp">
+      <Filter>GameSource\GameObject\Mario\SelectingMario</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionTree.cpp">
+      <Filter>GameSource\GameObject\SelectionScene\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionNode.cpp">
+      <Filter>GameSource\GameObject\SelectionScene\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayScene.cpp">
+      <Filter>GameSource\Scenes\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroScene.cpp">
+      <Filter>GameSource\Scenes\IntroScene</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroSceneObj.cpp">
+      <Filter>GameSource\Scenes\IntroScene\IntroSceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GoldenBrick.cpp">
+      <Filter>GameSource\GameObject\Object\Block\GoldenBrick</Filter>
+    </ClCompile>
+    <ClCompile Include="RedGoomba.cpp">
+      <Filter>GameSource\GameObject\Object\Enemy\Enemy\RedGoomba</Filter>
+    </ClCompile>
+    <ClCompile Include="EndSceneItem.cpp">
+      <Filter>GameSource\GameObject\Object\WinningCard</Filter>
+    </ClCompile>
+    <ClCompile Include="Death.cpp">
+      <Filter>GameSource\GameObject\Object\DeathZone</Filter>
+    </ClCompile>
+    <ClCompile Include="BoomerangBrother.cpp">
+      <Filter>GameSource\GameObject\Object\Enemy\Enemy\BoomerangBrother</Filter>
+    </ClCompile>
+    <ClCompile Include="Boomerang.cpp">
+      <Filter>GameSource\GameObject\Object\Enemy\Bullet\Boomerang</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>GameSource\Utils\Grid and Cell\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Cell.cpp">
+      <Filter>GameSource\Utils\Grid and Cell\Cell</Filter>
+    </ClCompile>
+    <ClCompile Include="GoldenBrickCoin.cpp">
+      <Filter>GameSource\GameObject\Object\Block\GoldenBrickCoin</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallMario.cpp">
+      <Filter>GameSource\GameObject\Mario\PlayingMario\1.SmallMario</Filter>
+    </ClCompile>
+    <ClCompile Include="TailMario.cpp">
+      <Filter>GameSource\GameObject\Mario\PlayingMario\3.TailMario</Filter>
+    </ClCompile>
+    <ClCompile Include="BigMario.cpp">
+      <Filter>GameSource\GameObject\Mario\PlayingMario\2.BigMario</Filter>
+    </ClCompile>
+    <ClCompile Include="TailAttackBox.cpp">
+      <Filter>GameSource\GameObject\Mario\PlayingMario\Attack\TailBoundingBox</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniGoomba.cpp">
+      <Filter>GameSource\GameObject\Object\Enemy\Bullet\MiniGoomba</Filter>
+    </ClCompile>
+    <ClCompile Include="BrownGoomba.cpp">
+      <Filter>GameSource\GameObject\Object\Enemy\Enemy\BrownGoomba</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildWorld.cpp">
+      <Filter>GameSource\BuildGame</Filter>
+    </ClCompile>
+    <ClCompile Include="NoteBlock.cpp">
+      <Filter>GameSource\GameObject\Object\Block\NoteBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="TeleportGate.cpp">
+      <Filter>GameSource\GameObject\Object\Portal\Teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="RectF.cpp">
+      <Filter>GameSource\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Mushroom.cpp">
+      <Filter>GameSource\GameObject\Object\Items\PowerUp</Filter>
+    </ClCompile>
+    <ClCompile Include="CAdding1UpEffect.cpp">
+      <Filter>GameSource\Sprite\Effect\1UpEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>GameSource\GameObject\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="PipePortal.cpp">
+      <Filter>GameSource\GameObject\Object\Portal\PipePortal</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>GameSource\Sprite\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteManager.cpp">
+      <Filter>GameSource\Sprite\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>GameSource\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>GameSource\WindowGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario.cpp">
+      <Filter>GameSource\GameObject\Mario\PlayingMario\0.Mario</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameSource\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>GameSource\WindowGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>GameSource\Sprite\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>GameSource\Sprite\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>GameSource\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationFrame.h">
+      <Filter>GameSource\Sprite\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Goomba.h">
+      <Filter>GameSource\GameObject\Object\Enemy\Enemy\Goomba</Filter>
+    </ClInclude>
+    <ClInclude Include="Koopas.h">
+      <Filter>GameSource\GameObject\Object\Enemy\Enemy\Koopas</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>GameSource\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="RectCollision.h">
+      <Filter>GameSource\GameObject\Object\CollisionBox\RectangleCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationSet.h">
+      <Filter>GameSource\Sprite\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsConsts.h">
+      <Filter>GameSource\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>GameSource\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Const.h">
+      <Filter>GameSource\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlReader\tinyxml.h">
+      <Filter>Library\XMLReader</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlReader\tinystr.h">
+      <Filter>Library\XMLReader</Filter>
+    </ClInclude>
+    <ClInclude Include="MapLayer.h">
+      <Filter>GameSource\BuildGame</Filter>
+    </ClInclude>
+    <ClInclude Include="TileSet.h">
+      <Filter>GameSource\BuildGame</Filter>
+    </ClInclude>
+    <ClInclude Include="FireMario.h">
+      <Filter>GameSource\GameObject\Mario\PlayingMario\4.FireMario</Filter>
+    </ClInclude>
+    <ClInclude Include="FireBullet.h">
+      <Filter>GameSource\GameObject\Mario\PlayingMario\Attack\FireBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="RectPlatform.h">
+      <Filter>GameSource\GameObject\Object\CollisionBox\RectanglePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestionBlock.h">
+      <Filter>GameSource\GameObject\Object\Block\QuestionBox</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestionBlockItem.h">
+      <Filter>GameSource\GameObject\Object\Block\QuestionBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Leaf.h">
+      <Filter>GameSource\GameObject\Object\Items\PowerUp</Filter>
+    </ClInclude>
+    <ClInclude Include="Venus.h">
+      <Filter>GameSource\GameObject\Object\Enemy\Enemy\Venus</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDrawer.h">
+      <Filter>GameSource\GameObject\Object\UIDrawer</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>GameSource\GameObject\Object\Items\Coin</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>GameSource\Sprite\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="AddingPointEffect.h">
+      <Filter>GameSource\Sprite\Effect\Adding100PointEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingCoinEffect.h">
+      <Filter>GameSource\Sprite\Effect\BoundingCoinEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="KoopasFly.h">
+      <Filter>GameSource\GameObject\Object\Enemy\Enemy\KoopasFly</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathf.h">
+      <Filter>GameSource\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionScene.h">
+      <Filter>GameSource\Scenes\SelectionScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionPortal.h">
+      <Filter>GameSource\GameObject\SelectionScene\Portal</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionSceneMario.h">
+      <Filter>GameSource\GameObject\Mario\SelectingMario</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionTree.h">
+      <Filter>GameSource\GameObject\SelectionScene\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionNode.h">
+      <Filter>GameSource\GameObject\SelectionScene\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScene.h">
+      <Filter>GameSource\Scenes\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroScene.h">
+      <Filter>GameSource\Scenes\IntroScene</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroSceneObj.h">
+      <Filter>GameSource\Scenes\IntroScene\IntroSceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GoldenBrick.h">
+      <Filter>GameSource\GameObject\Object\Block\GoldenBrick</Filter>
+    </ClInclude>
+    <ClInclude Include="RedGoomba.h">
+      <Filter>GameSource\GameObject\Object\Enemy\Enemy\RedGoomba</Filter>
+    </ClInclude>
+    <ClInclude Include="EndSceneItem.h">
+      <Filter>GameSource\GameObject\Object\WinningCard</Filter>
+    </ClInclude>
+    <ClInclude Include="Death.h">
+      <Filter>GameSource\GameObject\Object\DeathZone</Filter>
+    </ClInclude>
+    <ClInclude Include="BoomerangBrother.h">
+      <Filter>GameSource\GameObject\Object\Enemy\Enemy\BoomerangBrother</Filter>
+    </ClInclude>
+    <ClInclude Include="Boomerang.h">
+      <Filter>GameSource\GameObject\Object\Enemy\Bullet\Boomerang</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>GameSource\Utils\Grid and Cell\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell.h">
+      <Filter>GameSource\Utils\Grid and Cell\Cell</Filter>
+    </ClInclude>
+    <ClInclude Include="GoldenBrickCoin.h">
+      <Filter>GameSource\GameObject\Object\Block\GoldenBrickCoin</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallMario.h">
+      <Filter>GameSource\GameObject\Mario\PlayingMario\1.SmallMario</Filter>
+    </ClInclude>
+    <ClInclude Include="TailMario.h">
+      <Filter>GameSource\GameObject\Mario\PlayingMario\3.TailMario</Filter>
+    </ClInclude>
+    <ClInclude Include="BigMario.h">
+      <Filter>GameSource\GameObject\Mario\PlayingMario\2.BigMario</Filter>
+    </ClInclude>
+    <ClInclude Include="MarioConsts.h">
+      <Filter>GameSource\GameObject\Mario\PlayingMario\0.Mario</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario.h">
+      <Filter>GameSource\GameObject\Mario\PlayingMario\0.Mario</Filter>
+    </ClInclude>
+    <ClInclude Include="TailAttackBox.h">
+      <Filter>GameSource\GameObject\Mario\PlayingMario\Attack\TailBoundingBox</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniGoomba.h">
+      <Filter>GameSource\GameObject\Object\Enemy\Bullet\MiniGoomba</Filter>
+    </ClInclude>
+    <ClInclude Include="BrownGoomba.h">
+      <Filter>GameSource\GameObject\Object\Enemy\Enemy\BrownGoomba</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildWorld.h">
+      <Filter>GameSource\BuildGame</Filter>
+    </ClInclude>
+    <ClInclude Include="NoteBlock.h">
+      <Filter>GameSource\GameObject\Object\Block\NoteBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="TeleportGate.h">
+      <Filter>GameSource\GameObject\Object\Portal\Teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="RectF.h">
+      <Filter>GameSource\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Mushroom.h">
+      <Filter>GameSource\GameObject\Object\Items\PowerUp</Filter>
+    </ClInclude>
+    <ClInclude Include="CAdding1UpEffect.h">
+      <Filter>GameSource\Sprite\Effect\1UpEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>GameSource\GameObject\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="PipePortal.h">
+      <Filter>GameSource\GameObject\Object\Portal\PipePortal</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteManager.h">
+      <Filter>GameSource\Sprite\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>GameSource\Sprite\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>GameSource\Scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

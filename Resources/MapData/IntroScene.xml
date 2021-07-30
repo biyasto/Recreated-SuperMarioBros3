@@ -1,0 +1,25 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+    <mapdata mapFilePath="Resources/IntroScene/IntroScene.tmx">
+        <textures>
+            <texture id="tex-intro" filePath="Assets\Textures\Intro.png" transColor="255,255,255" />
+            <texture id="tex-mario" filePath="Assets\Textures\mario.png" />
+            <texture id="black" filePath="Assets\Textures\black.png" transColor="255,255,255" />
+            
+        </textures>
+
+        <sprites>
+            <sprite idTex="tex-mairio" filePath="Assets\Sprites\SpriteDatabases\MarioDB.xml" />
+            <sprite idTex="tex-intro" filePath="Assets\Sprites\SpriteDatabases\IntroDB.xml" />
+        </sprites>
+
+        <animations>
+            <animation idSet="intro" filePath="Assets/Animations/IntroAnim.xml" />
+        </animations>
+
+        <objects>
+
+            <mario type="1" x="170" y="150" />
+            
+        </objects>
+    </mapdata>
