@@ -36,7 +36,7 @@
 			<Sprite id="spr-red-goomba-die-0" left="145" top="77"  width="16" height="9"/>
 		</Animation>
 		
-		<!--Tan Para Goomba (Goomba nâu có cánh) --> 
+		<!--Tan Para Goomba ) --> 
 	 	<!-- Animation IDLE-->
 		 	<Animation aniId="ani-tan-para-goomba-idle" frameTime="100">
 			<Sprite id="spr-tan-para-goomba-idle-0" left="125" top="11"  width="20" height="19"/>
@@ -48,12 +48,12 @@
 			<Sprite id="spr-tan-para-goomba-flap-1" left="99" top="6"  width="20" height="24"/>
 		</Animation>
 
-		<!--Tiny Goomba (Goomba con) --> 
+		<!--Tiny Goomba  --> 
 		<Animation aniId="ani-tiny-goomba-fall" frameTime="100">
 			<Sprite id="spr-tiny-goomba-fall-0" left="174" top="21"  width="8" height="9"/>
 		</Animation>
 
-		<!--Red Para Goomba (Goomba nâu có cánh) --> 
+		<!--Red Para Goomba --> 
 	 	<!-- Animation IDLE-->
 		 <Animation aniId="ani-red-para-goomba-idle" frameTime="100">
 			<Sprite id="spr-red-para-goomba-idle-0" left="116" top="40"  width="20" height="19"/>

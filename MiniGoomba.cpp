@@ -33,7 +33,7 @@ void CMiniGoomba::CollidedTop(LPGAMEOBJECT obj) {
 }
 
 void CMiniGoomba::Update(DWORD dt, vector<LPGAMEOBJECT>* coObjects) {
-
+	if (isDisable) return;
 
 		vx = 0.0f;
 		vy = 0.3f;

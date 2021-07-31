@@ -414,7 +414,7 @@ void CGameObject::SwitchEffect(EExtraEffect eff) {
 }
 
 void CGameObject::SetEffect(EExtraEffect newEffect, DWORD timeEffect) {
-	if (GetTickCount64() < effect.timeEffect + effect.timeBegin) return;
+	if (GetTickCount64() < static_cast<unsigned long long>(effect.timeEffect) + effect.timeBegin) return;
 	effect.timeBegin = GetTickCount64();
 	effect.timeEffect = timeEffect;
 	effect.type = newEffect;

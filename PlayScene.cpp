@@ -25,7 +25,7 @@ CPlayScene::CPlayScene(std::string id, std::string filePath, std::string type) :
 
 	key_handler = new CPlayScenceKeyHandler(this);
 	timeScale = DEFAULT_TIME_SCALE;
-	LPGAMEOBJECT cameraLimitController = NULL;
+	
 
 }
 

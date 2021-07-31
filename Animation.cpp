@@ -84,7 +84,7 @@ bool CAnimations::LoadAnimationsFromFile(std::string filePath, std::string setId
 
 void CAnimation::Render(Vector2 finalPos, Vector2 scale, int alpha)
 {
-	DWORD now = GetTickCount();
+	DWORD now = GetTickCount64();
 	if (currentFrame == -1)
 	{
 		currentFrame = 0;
