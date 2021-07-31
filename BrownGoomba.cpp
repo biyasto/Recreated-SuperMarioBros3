@@ -92,8 +92,16 @@ void CBrownGoomba::Update(DWORD dt, vector<LPGAMEOBJECT>* coObjects) {
 
 	if (state.type == EEnemyState::LIVE) ChangeStepHasWingBehavior(dt);
 
-	ProcessHasWingBehavior();
-	CEnemy::Update_Fly(dt, coObjects);
+	
+	if (state.type != EEnemyState::ONESHOTDIE)
+	{
+		CEnemy::Update_Fly(dt, coObjects);
+		ProcessHasWingBehavior();
+	}
+	else
+	{
+		CEnemy::Update(dt, coObjects);ApplyGravity();
+	}
 	UpdateWithCollision(coObjects);
 	ShootBullet();
 }
@@ -114,11 +122,11 @@ void CBrownGoomba::BeingCollided(LPGAMEOBJECT obj) {
 		nx = (x - obj->x) > 0 ? 1 : -1;
 		walkingSpeed = 0.1;
 
-		ChangeState(EEnemyState::WILL_DIE, 1000);
+		ChangeState(EEnemyState::ONESHOTDIE, 1000);
 
 	}
 	else if (dynamic_cast<CFireBullet*>(obj)) {
-		ChangeState(EEnemyState::WILL_DIE, 1000);
+		ChangeState(EEnemyState::ONESHOTDIE, 1000);
 	}
 
 
