@@ -461,7 +461,6 @@
   </object>
   <object id="146" type="Leaf" x="4322" y="1096" width="48" height="48"/>
   <object id="163" type="OneUpGreen" x="4296" y="384" width="52" height="56"/>
-  <object id="166" type="OneUpGreen" x="342" y="1056" width="52" height="56"/>
  </objectgroup>
  <layer id="9" name="Background-black" width="176" height="41">
   <data encoding="csv">

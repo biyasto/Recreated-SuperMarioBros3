@@ -85,10 +85,10 @@ void CBrownGoomba::CollidedTop(LPGAMEOBJECT obj) {
 
 void CBrownGoomba::Update(DWORD dt, vector<LPGAMEOBJECT>* coObjects) {
 	if (state.type == EEnemyState::WILL_DIE) {
-		ChangeState(EEnemyState::DIE);
+		ChangeState(EEnemyState::DIE); 
 		return;
 	}
-	if (state.type == EEnemyState::DIE) return;
+	if (state.type == EEnemyState::DIE) return; 
 
 	if (state.type == EEnemyState::LIVE) ChangeStepHasWingBehavior(dt);
 
@@ -119,7 +119,7 @@ void CBrownGoomba::BeingCollidedTop(LPGAMEOBJECT obj) {
 void CBrownGoomba::BeingCollided(LPGAMEOBJECT obj) {
 	if (dynamic_cast<CTailAttackBox*>(obj)) {
 		vy = -0.55f;
-		nx = (x - obj->x) > 0 ? 1 : -1;
+		//nx = (x - obj->x) > 0 ? 1 : -1;
 		walkingSpeed = 0.1;
 
 		ChangeState(EEnemyState::ONESHOTDIE, 1000);
