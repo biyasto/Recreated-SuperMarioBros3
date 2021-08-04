@@ -47,7 +47,7 @@ ESC: Pause/Unpause
 
 
  <p align="center">
-   <img src="Saved Pictures/mario0.png" height = "340" width="290"> <img src="Saved Pictures/mario1.png" height =  height = "340" width="290">  <img src="Saved Pictures/mario2.png" height = "340" width="290">
+   <img src="Saved Pictures/mario0.png" height = "320" width="270"> <img src="Saved Pictures/mario1.png" height =  height = "320" width="270">  <img src="Saved Pictures/mario2.png" height = "320" width="270">
   </p>
    
  
@@ -55,5 +55,5 @@ ESC: Pause/Unpause
   
      
  <p align="center">
-   <img src="Saved Pictures/mario3.png"  height = "340" width="290"> <img src="Saved Pictures/mario4.png"  height = "340" width="290"> <img src="Saved Pictures/mario5.png" height =  height = "340" width="290">
+   <img src="Saved Pictures/mario3.png"  height = "320" width="270"> <img src="Saved Pictures/mario4.png"  height = "320" width="270"> <img src="Saved Pictures/mario5.png" height =  height = "320" width="270">
   </p>
