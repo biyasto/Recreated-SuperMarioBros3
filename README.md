@@ -39,3 +39,18 @@ S -TAP: Fly/Float
 
 ESC: Pause/Unpause
 
+## GAMEPLAY
+
+  <p align="center">
+   <img src="Saved Pictures/intro.png" height = "1146" width="987"> <img src="Saved Pictures/select.png" height = "1146" width="987">
+   
+
+   <img src="Saved Pictures/mario0.png" height = "1146" width="987"> <img src="Saved Pictures/mario1.png" height = "1146" width="987">
+
+   
+  <img src="Saved Pictures/mario2.png" height = "1146" width="987"> <img src="Saved Pictures/mario3.png" height = "1146" width="987">
+  
+   
+   <img src="Saved Pictures/mario4.png" height = "1146" width="987"> <img src="Saved Pictures/mario5.png" height = "1146" width="987">
+
+  </p>
